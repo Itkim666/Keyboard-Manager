@@ -1,0 +1,10 @@
+/.build-tools/
+/.buildenv/
+/dist/
+/build/
+/keymapper-upstream/
+/keymapper-runtime/
+/keymapper-5.8.1-Windows-x86_64.zip
+__pycache__/
+.pytest_cache/
+

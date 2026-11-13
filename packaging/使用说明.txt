@@ -1,0 +1,23 @@
+﻿Keyboard Manager 1.0.0 · Windows x64
+
+安装版：运行 Setup，安装后从开始菜单打开。
+便携版：将 ZIP 完整解压到你选择的目录，进入 Keyboard Manager 文件夹，双击 Keyboard Manager.exe。请将 _internal 文件夹与程序保存在一起。
+两者共享当前 Windows 用户的本地配置（%LOCALAPPDATA%\Keyboard Manager）。换电脑前，可在「备份与恢复」中导出设置，再在新电脑导入。
+
+默认映射：左 Shift + D / F / J / K → ← / ↑ / ↓ / →。
+默认截图：Ctrl + S。可在常规设置中更改或清除。
+截图编辑：框选后调整八个控制点，或拖动选区。右键标注工具可设置样式。
+截图快捷键：Ctrl + Z 撤销、Ctrl + Y 重做、Ctrl + C 复制、Ctrl + S 另存为、Esc 取消当前操作。
+提取文字和截图翻译在本机运行，模型随安装包和便携版提供。框选后点击「翻译」，软件按文字区域自动识别语言、原位替换外文，并显示可复制的简体中文译文。
+NLLB 模型以 CC BY-NC 4.0 授权，许可证和模型来源见 _internal/capture-models。
+需要输入对应大写字母时使用右 Shift，或通过托盘暂停映射。
+若已在 PowerToys 中启用相同映射，请先停用对应规则。
+关闭窗口默认收起到托盘。从托盘退出可停止引擎。
+开机启动可在常规设置中确认启用。
+此版本以普通权限运行，管理员应用中的映射可能无法生效。
+导入或恢复设置时，Windows 启动项由常规设置中的开关单独确认。
+
+本程序使用 keymapper 5.8.1，包含对组合键释放行为的修改。
+上游：https://github.com/houmain/keymapper/tree/5.8.1
+对应源码见随制品一起交付的 Keyboard-Manager-1.0.0-Source.zip。
+许可证见 GPL-3.0.txt 及 Licenses 目录。
